@@ -1,0 +1,21 @@
+# Google OAuth credentials and tokens
+credentials.json
+token.json
+client_secret*.json
+
+# Private application data
+*.db
+*.sqlite
+*.sqlite3
+data/
+logs/
+.env
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# macOS
+.DS_Store
